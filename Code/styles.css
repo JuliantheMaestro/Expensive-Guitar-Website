@@ -42,35 +42,16 @@ h3 {
     color: white !important;
 }
 
-.btn-dark:hover{
-    background-color: #f3e885;
-    color: #2b283a;
-}
-
-.btn-light:hover{
-    background-color: #f3e885;
-    color: #2b283a;
-}
-
-.btn-mid:hover{
-    background-color: #f3e885;
-    color: #2b283a;
-}
-
-.btn-dark:active{
-    background-color: #f3e885;
-    color: #2b283a;
-}
-
-.btn-light:active{
-    background-color: #f3e885;
-    color: #2b283a;
-}
-
+.btn-dark:hover, 
+.btn-dark:active, 
+.btn-light:hover, 
+.btn-light:active,
+.btn-mid:hover,
 .btn-mid:active{
     background-color: #f3e885;
     color: #2b283a;
 }
+
 
 /*Sections*/
 
