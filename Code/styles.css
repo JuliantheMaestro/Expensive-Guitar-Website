@@ -20,8 +20,56 @@ h3 {
     margin: 0;
 }
 
-a {
-    color: #d0aaff;
+.btn-light, .btn-mid, .btn-dark{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-light{
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn-mid{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-dark{
+    background-color: #5f29a3;
+    color: white !important;
+}
+
+.btn-dark:hover{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.btn-light:hover{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.btn-mid:hover{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.btn-dark:active{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.btn-light:active{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.btn-mid:active{
+    background-color: #f3e885;
+    color: #2b283a;
 }
 
 /*Sections*/
