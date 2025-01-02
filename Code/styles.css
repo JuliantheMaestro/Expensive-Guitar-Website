@@ -54,6 +54,12 @@ section {
     justify-content: space-between;
 }
 
+footer {
+    padding: 45px 0;
+    color:#5f29a3;
+    text-align: center;
+}
+
 /*Images*/
 
 .first-image {
