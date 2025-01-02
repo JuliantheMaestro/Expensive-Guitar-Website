@@ -6,10 +6,7 @@ body {
     margin: 0;
 }
 
-header {
-    background-color: #5f29a3;
-    padding: 45px 0px;
-}
+/*Typography*/
 
 h1 {
     color:whitesmoke;
@@ -23,14 +20,37 @@ h3 {
     margin: 0;
 }
 
+a {
+    color: #d0aaff;
+}
+
+/*Sections*/
+
+header {
+    background-color: #5f29a3;
+    padding: 45px 0px;
+}
+
 section {
     padding: 45px 0;
+}
+
+.section-one a {
+    color: #5f29a3;
+}
+
+.section-two {
+    background-color: #5f29a3;
+    color: whitesmoke;
 }
 
 .container {
     width: 620px;
     margin: 0 auto;
 }
+
+
+/*Images*/
 
 .first-image {
     width: 100%;
