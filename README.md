@@ -1,0 +1,1 @@
+This is a website designed to bolster my CSS skills. I learned many news skills including the semantics of html which I had no idea about and using hyperlinks instead of button elements for simple navigation across the page. I learned how to use div elements properly and how to make better uses of flexbox.  
