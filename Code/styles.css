@@ -92,15 +92,15 @@ footer {
 /*Modal*/
 
 .modal {
-    
+    display: none;
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 420px;
-    width: 350px;
+    height: 470px;
+    width: 400px;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 2px #666;
     background-color: #212529;
@@ -108,11 +108,9 @@ footer {
 }
 
 .modal-inner{
-    width: 290px;
+    width: 315px;
     margin: 0 auto;
 }
-
-
 
 input{
     margin-top: 10px; 
@@ -126,6 +124,34 @@ input{
     height: 140px;
     line-height: 23px;
     margin-bottom: 0;
+    font-size: 14px;
+}
+
+.modal-btn{
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.modal-choice-btns{
+    margin-top: 10px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-choice-btns-reverse{
+    flex-direction: row-reverse;
+}
+
+.close-modal-btn-container{
+    text-align: right;
+    margin: 9px;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: red;
+    cursor: pointer;
 }
 
 /*Images*/
