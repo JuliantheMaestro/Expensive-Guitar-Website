@@ -9,7 +9,7 @@ const modalChoiceBtns = document.getElementById('modal-choice-btns')
 
 setTimeout(function(){
     modal.style.display = 'inline'
-}, 1500)
+}, 3000)
 
 
 
